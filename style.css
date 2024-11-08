@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 ul{
@@ -15,6 +16,7 @@ ul li a{
     color: black;
 }
 
+/* header and hero section */
 .header{
     background-color: #fff;
     display: flex;
@@ -69,9 +71,14 @@ ul li a{
     cursor: pointer;
 }
 
+/* popular destinations section */
+
 .popular-section{
     margin-top: 5rem;
     padding: 30px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
 
 }
 
@@ -92,13 +99,20 @@ ul li a{
     
 }
 
+/* inspiration section */
 
+.inspiration-section{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
 .accomodations {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    
     }
     .accomodations h2 {
     margin-bottom: 1.5rem;
@@ -197,6 +211,114 @@ ul li a{
         gap: 1rem;
       }
 
+      .cards-container{
+        display: flex;
+      }
+
+      .family-trip{
+        padding: 4rem;
+      }
+      .family-trip-card{
+        display: inline-block;
+        margin: 20px;
+        
+    }
+    
+    .family-trip-card img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+        
+    }
+
+.amenities-container{
+    display: flex;
+    padding: 2rem;
+}
+
+.amenities-card{
+    display: inline-block;
+    margin: 20px;
+}
+
+.amenities-card img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    overflow-y: hidden;
+}
+
+.summary-cards{
+    display: flex;
+    padding: 2rem;
+}
+
+.summary{
+    display: inline-block;
+    margin: 20px;
+}
+
+.summary .icon img{
+    font-size: 2rem;
+    width: 80px;
+}
+
+.summary .title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+.summary .description{
+    font-size: 1rem;
+}
+
+/*call to action */
+
+.call-to-action {
+    background-image:  url('/images/call-to-action.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 5rem;
+    margin-inline: 5rem;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.rent-card {
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 16px;
+    color: black;
+}
+
+.rent-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.rent-card p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #191e3b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* footer section */
+
 .footer{
     background-color: #f7f7f8;
     border-radius: 12px;
@@ -205,6 +327,7 @@ ul li a{
     font-weight: 0.9rem;
 
 }
+
 
 .links-section{
     display: flex;
@@ -243,4 +366,5 @@ ul li a{
 .copyright{
     margin-top: 2rem;
     font-size: 0.9rem;
+    text-align: center;
 }
