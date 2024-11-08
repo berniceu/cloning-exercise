@@ -124,6 +124,79 @@ ul li a{
     margin-top: 0.5rem;
     }
 
+    .inspiration-section {
+        margin-bottom: 80px;
+    }
+    .inspiration-section h2 {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+    .inspiration-section p {
+        font-size: 16px;
+        
+    }
+    .inspiration-section span {
+        font-weight: bold;
+    }
+
+    .holiday-homes-card {
+        width: 350px;
+        border-radius: 12px;
+        overflow: hidden;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .holiday-homes-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    .holiday-homes-card .rating {
+        background-color: #227950;
+        color: white;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 14px;
+        display: inline-block;
+        margin: 12px;
+    }
+
+    .category{
+        color: #777;
+        font-size: 14px; 
+    }
+    .holiday-homes-card .location {
+        color: #777;
+        font-size: 14px;
+        margin: 0 12px;
+    }
+    .holiday-homes-card h3 {
+        font-size: 18px;
+        margin: 8px 12px;
+        font-weight: bold;
+    }
+    .holiday-homes-card .price {
+        font-size: 20px;
+        color: #333;
+        font-weight: bold;
+        margin: 8px 12px;
+    }
+    .holiday-homes-card .details {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .night-price {
+        font-size: 14px;
+        color: #666;
+        margin: 0 12px 12px;
+      }
+
+      .home-cards-container{
+        display: flex;
+        gap: 1rem;
+      }
+
 .footer{
     background-color: #f7f7f8;
     border-radius: 12px;
